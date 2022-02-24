@@ -3,7 +3,7 @@
 }
 .service_inner{
     padding: 40px;
-    box-shadow: 3px 3px 6px 5px #ccc;
+    box-shadow: 3px 3px 3px 3px #ccc;
     border-radius: 5px;
 }
 .service_inner h4{
