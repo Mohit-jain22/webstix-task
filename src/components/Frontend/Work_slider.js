@@ -44,7 +44,7 @@ export default function Work_slider() {
                                 <Col md="2" xs="2" lg="2">
                                     <img src={image} alt="" />
                                 </Col>
-                                <Col md="10" xs="0" lg="10">
+                                <Col md="10" xs="10" lg="10">
                                         <h5>Tim and Curt</h5>
                                         <h6>-Capitol Pools</h6>
                                 </Col>
@@ -68,7 +68,7 @@ export default function Work_slider() {
                                 <Col md="2" xs="2" lg="2">
                                     <img src={image} alt="" />
                                 </Col>
-                                <Col md="10" xs="0" lg="10">
+                                <Col md="10" xs="10" lg="10">
                                         <h5>Tim and Curt</h5>
                                         <h6>-Capitol Pools</h6>
                                 </Col>
