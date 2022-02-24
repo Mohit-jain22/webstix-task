@@ -1,0 +1,28 @@
+.space{
+    padding: 0px 40px 40px 0px!important;
+}
+.service_inner{
+    padding: 40px;
+    box-shadow: 3px 3px 6px 5px #ccc;
+    border-radius: 5px;
+}
+.service_inner h4{
+    font-size: 24px;
+    line-height: 26px;
+}
+.service_inner img{
+    width: 100px;
+    height: 100px;
+    padding-bottom: 20px;
+}
+
+@media(max-width: 767px) {
+    .space{
+        padding-right: 0px!important;
+    }
+}
+@media(min-width: 768px) and (max-width: 1023px){
+    .space:nth-child(2n){
+        padding-right: 0px!important;
+    }
+  }

@@ -1,0 +1,10 @@
+li.footer_link a{
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration: underline;
+    color: #8e8e8e;
+}
+li.footer_link{
+    padding-bottom: 0px;
+    list-style: none;
+}

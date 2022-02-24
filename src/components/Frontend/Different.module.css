@@ -1,0 +1,79 @@
+.different{
+    padding: 80px 0;
+}
+.different .left{
+    max-width: 685px;
+    margin: 0 auto;
+}
+.different .left h2{
+    font-size: 50px;
+    line-height: 66px;
+    padding-bottom: 30px;
+}
+.different .left p{
+    font-size: 18px;
+    line-height: 28px;
+    color: #000;
+    padding-bottom: 20px;
+}
+.different .right{
+    background-color: #868686;
+    padding: 30px 0;
+    position: relative;
+    border-radius: 5px;
+}
+.different .right .right_inner{
+    position: absolute;
+    top: 30px;
+    left: -40px;
+    height: 450px!important;
+    width: 100%;
+    background-color: #ececec;
+    height: 100%;
+    text-align: center;
+    padding: 30px;
+
+}
+.different .right .right_inner h3{
+    font-size: 24px;
+    line-height: 40px;
+}
+@media(max-width: 767px) {
+    .different{
+        padding: 30px;
+    }
+    .different .left h2{
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .different .right{
+        margin: 30px 0;
+    }
+    .different .right .right_inner{
+        position: relative;
+        left: -30px;
+        height: 400px!important;
+        top: unset;
+    }
+}
+@media(min-width: 768px) and (max-width: 1023px){
+    .different{
+        padding: 30px;
+    }
+    .different .left h2{
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .different .right{
+        margin: 30px 0;
+    }
+    .different .right .right_inner{
+        position: relative;
+        left: -30px;
+        height: 400px!important;
+        top: unset;
+    }
+    .different .right .right_inner br{
+        display: block;
+    }
+  }

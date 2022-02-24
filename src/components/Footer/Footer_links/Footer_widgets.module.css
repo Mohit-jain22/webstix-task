@@ -1,0 +1,22 @@
+.five{
+    width: 20%;
+    float: left;
+    padding-right: 30px;
+}
+
+ul.footer_widgets{
+    padding: 0;
+}
+@media(max-width: 767px) {
+    .five{
+        padding: 0 20px 20px 0;
+        width: 50%;
+    }
+    
+}
+@media(min-width: 768px) and (max-width: 1023px){
+    .five{
+        padding: 0 20px 20px 0;
+        width: 33.33%;
+    }
+}

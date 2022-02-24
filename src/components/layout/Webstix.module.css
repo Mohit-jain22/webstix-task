@@ -1,0 +1,33 @@
+.five{
+    width: 20%!important;
+    float: left;
+    padding: 0px 40px 40px 0px!important;
+}
+.service_inner h4{
+    font-size: 24px;
+    line-height: 26px;
+    color: #fff;
+}
+.service_inner img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    padding-bottom: 20px;
+}
+
+@media(max-width: 767px) {
+    .five{
+        width: 100%!important;
+        float: none;
+        padding-right: 0px!important;
+    }
+}
+@media(min-width: 768px) and (max-width: 1023px){
+    .five:nth-child(2n){
+        padding-right: 0px!important;
+    }
+    .five{
+        width: 50%!important;
+        float: left;
+    }
+  }

@@ -1,0 +1,28 @@
+.footer_copyright{
+    padding: 20px 0;
+    background-color: #282828;
+}
+.footer_copyright p, .footer_copyright a, .footer_copyright a:hover{
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 14px;
+}
+.footer_copyright a{
+    border-left: 1px solid #fff;
+    padding: 0 5px;
+}
+.footer_copyright a:first-child{
+    margin-left: 5px;
+}
+@media(max-width: 767px) {
+    .footer_copyright{
+        padding: 10px 30px;
+    }
+}
+@media(min-width: 768px) and (max-width: 1023px){
+    .footer_copyright{
+        padding: 10px 30px;
+    }
+}

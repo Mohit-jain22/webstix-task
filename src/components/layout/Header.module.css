@@ -1,0 +1,29 @@
+
+.logo{
+    width: 183px;
+}
+.topnav{
+    padding: 20px 0;
+}
+.topnav p{
+    font-size: 16px;
+    line-height: 18px;
+    padding: 0;
+}
+.topnav a, .topnav a:hover{
+    text-decoration: none!important;
+    color: #000;
+  }
+
+
+  @media(max-width: 767px) {
+    .topnav{
+      display: none;
+    }
+  }
+
+  @media(min-width: 768px) and (max-width: 1023px){
+    .topnav{
+        display: none;
+      }
+  }

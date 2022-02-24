@@ -1,0 +1,16 @@
+.footer_main{
+    padding: 60px 0;
+}
+.footer_main ul{
+    margin: 0;
+}
+@media(max-width: 767px) {
+    .footer_main{
+        padding: 30px;
+    }
+}
+@media(min-width: 768px) and (max-width: 1023px){
+    .footer_main{
+        padding: 30px;
+    }
+}

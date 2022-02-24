@@ -1,0 +1,36 @@
+.includes{
+    padding: 80px 0;
+    text-align: center;
+    background-color: #333233;
+}
+.includes h2{
+    font-size: 50px;
+    line-height: 66px;
+    padding-bottom: 30px;
+    color: #fff;
+}
+.includes p{
+    font-size: 24px;
+    line-height: 28px;
+    color: #fff;
+    padding-bottom: 30px;
+}
+
+@media(max-width: 767px) {
+    .includes{
+        padding: 30px;
+    }
+    .includes h2{
+        font-size: 32px;
+        line-height: 40px;
+    }
+}
+@media(min-width: 768px) and (max-width: 1023px){
+    .includes{
+        padding: 30px;
+    }
+    .includes h2{
+        font-size: 32px;
+        line-height: 40px;
+    }
+  }

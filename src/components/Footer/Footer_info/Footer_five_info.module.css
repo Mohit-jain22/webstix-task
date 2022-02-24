@@ -1,0 +1,94 @@
+.five{
+    padding:10px!important;
+    border-right: 1px solid #cccccc;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.five p, .address p, .address a{
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 700;
+    text-align: center;
+    color: #000;
+}
+.five h5{
+    text-transform: uppercase;
+}
+.address{
+    padding: 10px;
+    position: relative;
+}
+.address *{
+    padding: 0!important;
+}
+.address a{
+    text-decoration: none;
+}
+.address h6, .address h6 a{
+    font-size: 16px;
+    line-height: 18px;
+    text-decoration: underline;
+}
+.add{
+    padding-top: 10px!important;
+}
+.address img{
+    padding-right: 5px!important;
+}
+.address p, .address a{
+    text-align: left;
+}
+.address a:hover{
+    color: #000;
+}
+ul.social{
+    padding: 10px 0 0;
+    display: block;
+}
+ul.social li{
+    display: inline-block;
+    padding-right: 5px;
+
+}
+ul.social li{
+    background-color: #333;
+    margin-right: 5px;
+    width: 30px;
+    height: 30px;
+    padding: 4px 6px;
+    text-align: center;
+}
+ul.social li a{
+    color: #fff;
+}
+.add svg{
+    vertical-align: top!important;
+}
+img.top{
+    width: 50px;
+    height: 60px;
+    right: 0;
+    position: absolute;
+    bottom: 0;
+}
+@media(max-width: 767px) {
+    .five{
+        border-bottom: 1px solid #cccccc;
+    }  
+    .five:nth-child(2n){
+        border-right: none;
+    }
+    .five img{
+        display: block;
+    }
+}
+@media(min-width: 768px) and (max-width: 1023px){
+    .five{
+        border-bottom: 1px solid #cccccc;
+    }  
+    .five:last-child{
+        border-right: none;
+    }  
+}
