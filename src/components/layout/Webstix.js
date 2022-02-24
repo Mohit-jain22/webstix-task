@@ -16,6 +16,7 @@ export default function Webstix(props) {
 
 $(window).on("load", function () {
     var t = 0;
+    // eslint-disable-next-line no-unused-expressions
     $("h4").each(function () {
         $(this).height() > t && (t = $(this).height());
     }),
