@@ -54,3 +54,10 @@
         padding-bottom: 30px;
     }
   }
+  @media(min-width: 1024px) and (max-width: 1365px){
+    .banner h1{
+        font-size: 32px;
+        line-height: 40px;
+        padding-bottom: 30px;
+    }
+  }

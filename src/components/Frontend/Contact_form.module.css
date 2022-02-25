@@ -76,3 +76,18 @@
         line-height: 28px;
     }
 }
+@media(min-width: 1023px) and (max-width: 1365px){
+    .contact_form{
+        padding: 80px;
+    }
+}
+@media(min-width: 1024px) and (max-width: 1365px){
+    .contact_form h2{
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .contact_form h3{
+        font-size: 28px;
+        line-height: 32px;
+    }
+  }

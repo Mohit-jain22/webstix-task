@@ -32,3 +32,9 @@
         line-height: 40px;
     }
   }
+  @media(min-width: 1024px) and (max-width: 1365px){
+    .help h2{
+        font-size: 32px;
+        line-height: 40px;
+    }
+  }

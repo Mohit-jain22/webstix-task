@@ -67,6 +67,9 @@
     .madison{
         padding: 30px;
     }
+    .madison .left{
+        padding-right: 30px!important;
+    }
     .madison .left h2{
         font-size: 32px;
         line-height: 40px;
@@ -76,16 +79,16 @@
     }
     .madison .right .right_inner{
         position: relative;
-        left: -30px;
+        left: -20px;
         height: 400px!important;
         top: unset;
     }
-    .diffmadisonerent .right .right_inner br{
+    .madison .right .right_inner br{
         display: block;
     }
   }
   @media(min-width: 1024px) and (max-width: 1365px){
-    .newsletter{
+    .madison{
         padding: 30px;
     }
     .newsletter .space{
@@ -93,5 +96,15 @@
     }
     .newsletter .news_in{
         text-align: center;
+    }
+    .madison .left h2{
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .madison .left{
+        padding-right: 30px!important;
+    }
+    .madison .right .right_inner{
+        left: -20px;
     }
 }

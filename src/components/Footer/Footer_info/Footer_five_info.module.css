@@ -94,7 +94,28 @@ img.top{
     .five{
         border-bottom: 1px solid #cccccc;
     }  
-    .five:last-child{
-        border-right: none;
-    }  
+    img{
+        width: 100%;
+        height: auto;
+    }
+    ul.social li a{
+        margin: 5px 0 0 5px;
+        display: block;
+    }
+    .icon{
+        margin-right: 5px!important;
+    }
 }
+@media(min-width: 1024px) and (max-width: 1365px){
+    img{
+        width: 100%;
+        height: auto;
+    }
+    ul.social li a{
+        margin: 5px 0 0 5px;
+        display: block;
+    }
+    .icon{
+        margin-right: 5px!important;
+    }
+  }

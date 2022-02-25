@@ -60,6 +60,9 @@
     .different{
         padding: 30px;
     }
+    .different .left{
+        padding-right: 30px!important;
+    }
     .different .left h2{
         font-size: 32px;
         line-height: 40px;
@@ -69,7 +72,7 @@
     }
     .different .right .right_inner{
         position: relative;
-        left: -30px;
+        left: -20px;
         height: 400px!important;
         top: unset;
     }
@@ -77,3 +80,18 @@
         display: block;
     }
   }
+@media(min-width: 1024px) and (max-width: 1365px){
+    .different{
+        padding: 60px;
+    }
+    .different .left{
+        padding-right: 30px!important;
+    }
+    .different .left h2{
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .different .right .right_inner{
+        left: -20px;
+    }
+}

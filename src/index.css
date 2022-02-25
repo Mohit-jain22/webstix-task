@@ -43,7 +43,7 @@ vertical-align: middle;
 }
 .main-button:hover, button.main-button:hover, button.main-button:focus{
   background: #000;
-  color: fff!important;
+  color: #fff!important;
   border: none;
   box-shadow: none;
 }
@@ -154,7 +154,9 @@ br{
     display: block;
 }
 .navbar a.nav-link{
-  padding: 5px 0!important;
+  padding: 5px!important;
+  font-size: 14px;
+  line-height: 16px;
 }
 .navbar-nav{
   padding: 20px 0 0;
@@ -178,6 +180,10 @@ br{
 .work_slide .carousel-control-next{
   right: -30px!important;
 }
+.main_button, button.main-button{
+  font-size: 16px;
+  line-height: 18px;
+}
 }
 @media(min-width: 1024px) and (max-width: 1365px){
   .vertical .carousel-indicators{
@@ -192,5 +198,9 @@ br{
   }
   .container{
     max-width: 960px!important;
+  }
+  .main-button, button.main-button{
+    font-size: 16px;
+    line-height: 18px;
   }
 }

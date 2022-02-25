@@ -18,3 +18,15 @@
   .main_button svg{
     padding: 0 0 0 10px!important;
   }
+  @media(min-width: 768px) and (max-width: 1023px){
+    .main_button{
+      font-size: 16px;
+      line-height: 18px;
+    }
+  }
+  @media(min-width: 1024px) and (max-width: 1365px){
+    .main_button{
+      font-size: 18px;
+      line-height: 20px;
+    }
+  }

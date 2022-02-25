@@ -44,3 +44,9 @@
         padding: 30px 0 0 0;
     }
 }
+@media(min-width: 1024px) and (max-width: 1365px){
+    .contact h2{
+        font-size: 32px;
+        line-height: 40px;
+    }
+}
