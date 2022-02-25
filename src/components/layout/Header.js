@@ -41,34 +41,34 @@ function Header() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mx-auto">
             <NavDropdown title="Web Design" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="#">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#">Another action</NavDropdown.Item>
-              <NavDropdown.Item href="#">Something</NavDropdown.Item>
-              <NavDropdown.Item href="#">Separated link</NavDropdown.Item>
+              <NavDropdown.Item href="#">Link 1</NavDropdown.Item>
+              <NavDropdown.Item href="#">Link 2</NavDropdown.Item>
+              <NavDropdown.Item href="#">Link 3</NavDropdown.Item>
+              <NavDropdown.Item href="#">Link 4</NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title="Marketing / SEO" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="#">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#">Another action</NavDropdown.Item>
-              <NavDropdown.Item href="#">Something</NavDropdown.Item>
-              <NavDropdown.Item href="#">Separated link</NavDropdown.Item>
+              <NavDropdown.Item href="#">Link 1</NavDropdown.Item>
+              <NavDropdown.Item href="#">Link 2</NavDropdown.Item>
+              <NavDropdown.Item href="#">Link 3</NavDropdown.Item>
+              <NavDropdown.Item href="#">Link 4</NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title="Services" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="#">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#">Another action</NavDropdown.Item>
-              <NavDropdown.Item href="#">Something</NavDropdown.Item>
-              <NavDropdown.Item href="#">Separated link</NavDropdown.Item>
+              <NavDropdown.Item href="#">Link 1</NavDropdown.Item>
+              <NavDropdown.Item href="#">Link 2</NavDropdown.Item>
+              <NavDropdown.Item href="#">Link 3</NavDropdown.Item>
+              <NavDropdown.Item href="#">Link 4</NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title="Portfolio" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="#">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#">Another action</NavDropdown.Item>
-              <NavDropdown.Item href="#">Something</NavDropdown.Item>
-              <NavDropdown.Item href="#">Separated link</NavDropdown.Item>
+              <NavDropdown.Item href="#">Link 1</NavDropdown.Item>
+              <NavDropdown.Item href="#">Link 2</NavDropdown.Item>
+              <NavDropdown.Item href="#">Link 3</NavDropdown.Item>
+              <NavDropdown.Item href="#">Link 4</NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title="Support" id="collasible-nav-dropdown">
-                <NavDropdown.Item href="#">Action</NavDropdown.Item>
-                <NavDropdown.Item href="#">Another action</NavDropdown.Item>
-                <NavDropdown.Item href="#">Something</NavDropdown.Item>
-                <NavDropdown.Item href="#">Separated link</NavDropdown.Item>
+              <NavDropdown.Item href="#">Link 1</NavDropdown.Item>
+              <NavDropdown.Item href="#">Link 2</NavDropdown.Item>
+              <NavDropdown.Item href="#">Link 3</NavDropdown.Item>
+              <NavDropdown.Item href="#">Link 4</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="#features">About Us</Nav.Link>
             <Nav.Link href="#pricing">Contact Us</Nav.Link>
