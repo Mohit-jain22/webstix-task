@@ -5,6 +5,8 @@ li.footer_link a{
     color: #8e8e8e;
 }
 li.footer_link{
-    padding-bottom: 0px;
+    padding-bottom: 2px;
     list-style: none;
+    padding-left: 10px;
+    background: url(https://www.ccb-holdings.com/wp-content/uploads/2022/02/arrow.png) no-repeat left center;
 }

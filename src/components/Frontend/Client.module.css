@@ -30,6 +30,9 @@
     font-size: 24px;
     line-height: 28px;
 }
+.icon{
+    padding: 0!important;
+}
 @media(max-width: 767px) {
     .client{
         padding: 30px;

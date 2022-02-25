@@ -17,7 +17,7 @@ export default function Work_slider() {
                         <div className={classes.quote}>
                             <p className={classes.quote_p}>"Our new website raised the amount of contacts we're receiving by 3 fold!"</p>
                             <Row>
-                                <Col md="2" xs="2" lg="2">
+                                <Col className={classes.icon} md="2" xs="2" lg="2">
                                     <img src={image} alt="" />
                                 </Col>
                                 <Col md="10" xs="10" lg="10">
@@ -41,7 +41,7 @@ export default function Work_slider() {
                         <div className={classes.quote}>
                             <p className={classes.quote_p}>"Our new website raised the amount of contacts we're receiving by 3 fold!"</p>
                             <Row>
-                                <Col md="2" xs="2" lg="2">
+                                <Col className={classes.icon} md="2" xs="2" lg="2">
                                     <img src={image} alt="" />
                                 </Col>
                                 <Col md="10" xs="10" lg="10">
@@ -65,7 +65,7 @@ export default function Work_slider() {
                         <div className={classes.quote}>
                             <p className={classes.quote_p}>"Our new website raised the amount of contacts we're receiving by 3 fold!"</p>
                             <Row>
-                                <Col md="2" xs="2" lg="2">
+                                <Col className={classes.icon} md="2" xs="2" lg="2">
                                     <img src={image} alt="" />
                                 </Col>
                                 <Col md="10" xs="10" lg="10">

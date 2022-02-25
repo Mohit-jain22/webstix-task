@@ -60,7 +60,7 @@ export default function Footer_five_info() {
                     </Col>
                     <Col lg="6" md="6">
                         <Row>
-                            <Col lg="2" md="2" xs="2" sm="2">
+                            <Col className={classes.icon} lg="2" md="2" xs="2" sm="2">
                                 <FontAwesomeIcon icon={faPhone} />
                             </Col>
                             <Col>
@@ -68,7 +68,7 @@ export default function Footer_five_info() {
                             </Col>
                         </Row>
                         <Row>
-                            <Col lg="2" md="2" xs="2" sm="2">
+                            <Col className={classes.icon} lg="2" md="2" xs="2" sm="2">
                                  <FontAwesomeIcon icon={faFax} />
                             </Col>
                             <Col>

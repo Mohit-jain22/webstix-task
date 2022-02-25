@@ -49,18 +49,16 @@ ul.social{
 }
 ul.social li{
     display: inline-block;
-    padding-right: 5px;
+    padding: 0px;
 
 }
-ul.social li{
+ul.social li a{
     background-color: #333;
     margin-right: 5px;
     width: 30px;
     height: 30px;
     padding: 4px 6px;
     text-align: center;
-}
-ul.social li a{
     color: #fff;
 }
 .add svg{
@@ -72,6 +70,9 @@ img.top{
     right: 0;
     position: absolute;
     bottom: 0;
+}
+.icon{
+    padding-left: 5px!important;
 }
 @media(max-width: 767px) {
     .five{

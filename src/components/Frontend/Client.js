@@ -28,9 +28,9 @@ export default function Client() {
         <TinySlider settings={settings}>
            <div style={{ position: "relative" }}>
                 <div className={classes.slider_inner}>
-                    <img src="https://www.ccb-holdings.com/wp-content/uploads/2021/10/SOCIAL-MEDIA-MARKETING-1.png" />
+                    <img src="https://www.ccb-holdings.com/wp-content/uploads/2021/10/SOCIAL-MEDIA-MARKETING-1.png" alt="" />
                     <Row>
-                        <Col md="2" sm="2" xs="2" lg="2">
+                        <Col className={classes.icon} md="2" sm="2" xs="2" lg="2">
                             <img className={classes.image} src={logo} alt="" />
                         </Col>
                         <Col md="10" sm="10" xs="10" lg="10">
@@ -42,9 +42,9 @@ export default function Client() {
            </div>
            <div style={{ position: "relative" }}>
                 <div className={classes.slider_inner}>
-                    <img src="https://www.ccb-holdings.com/wp-content/uploads/2021/10/SOCIAL-MEDIA-MARKETING-1.png" />
+                    <img src="https://www.ccb-holdings.com/wp-content/uploads/2021/10/SOCIAL-MEDIA-MARKETING-1.png" alt="" />
                     <Row>
-                        <Col md="2" sm="2" xs="2" lg="2">
+                        <Col className={classes.icon} md="2" sm="2" xs="2" lg="2">
                             <img className={classes.image} src={logo} alt="" />
                         </Col>
                         <Col md="10" sm="10" xs="10" lg="10">
@@ -56,9 +56,9 @@ export default function Client() {
            </div>
            <div style={{ position: "relative" }}>
                 <div className={classes.slider_inner}>
-                    <img src="https://www.ccb-holdings.com/wp-content/uploads/2021/10/SOCIAL-MEDIA-MARKETING-1.png" />
+                    <img src="https://www.ccb-holdings.com/wp-content/uploads/2021/10/SOCIAL-MEDIA-MARKETING-1.png" alt="" />
                     <Row>
-                        <Col md="2" sm="2" xs="2" lg="2">
+                        <Col className={classes.icon} md="2" sm="2" xs="2" lg="2">
                             <img className={classes.image} src={logo} alt="" />
                         </Col>
                         <Col md="10" sm="10" xs="10" lg="10">
@@ -70,9 +70,9 @@ export default function Client() {
            </div>
            <div style={{ position: "relative" }}>
                 <div className={classes.slider_inner}>
-                    <img src="https://www.ccb-holdings.com/wp-content/uploads/2021/10/SOCIAL-MEDIA-MARKETING-1.png" />
+                    <img src="https://www.ccb-holdings.com/wp-content/uploads/2021/10/SOCIAL-MEDIA-MARKETING-1.png" alt="" />
                     <Row>
-                        <Col md="2" sm="2" xs="2" lg="2">
+                        <Col className={classes.icon} md="2" sm="2" xs="2" lg="2">
                             <img className={classes.image} src={logo} alt="" />
                         </Col>
                         <Col md="10" sm="10" xs="10" lg="10">

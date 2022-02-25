@@ -57,7 +57,7 @@ vertical-align: middle;
   display: none;
 }
 .navbar{
-  background-color: #636363;
+  background-color: #a51e22;
   padding: 10px 0!important;
 }
 .navbar a.nav-link{
@@ -66,6 +66,20 @@ vertical-align: middle;
   font-size: 18px;
   line-height: 22px;
   padding: 0 20px!important;
+}
+nav.navbar .dropdown-menu{
+  padding: 0;
+  margin: 0!important;
+  border-radius: 0px;
+}
+nav.navbar .dropdown-menu a{
+  padding: 10px 20px;
+  transition: all 0.5s;
+}
+nav.navbar .dropdown-menu a:hover{
+  background-color: #a51e22;
+  color: #fff;
+  transition: all 0.5s;
 }
 form input, form textarea{
   border: 1px solid #b7b7b7!important;
@@ -156,7 +170,7 @@ br{
   top: unset;
   left: 0;
   margin-bottom: 0!important;
-  bottom: -50px;
+  bottom: -60px;
 }
 .work_slide .carousel-control-prev{
   left: -30px!important;

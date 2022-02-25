@@ -37,8 +37,11 @@
     padding-bottom: 0;
 }
 @media(max-width: 767px) {
-    .vertical_slider, .vertical_slider .vertical_slider_inner{
+    .vertical_slider{
         padding: 30px;
+    }
+    .vertical_slider .vertical_slider_inner{
+        padding: 30px 10px;
     }
 }
 @media(min-width: 768px) and (max-width: 1023px){
