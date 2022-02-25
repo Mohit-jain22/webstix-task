@@ -1,6 +1,8 @@
 import React from 'react'
 import classes from './Footer_five_info.module.css'
-import logo from '../../../assets/image/webstix_logo.svg'
+import authorize from '../../../assets/image/authorize.png'
+import madison from '../../../assets/image/madison.png'
+import upcity from '../../../assets/image/upcity.png'
 import top from '../../../assets/image/top.png'
 import { library } from "@fortawesome/fontawesome-svg-core";
 import {  faFacebookF, faTwitter, faLinkedin, faYoutube  } from '@fortawesome/free-brands-svg-icons';
@@ -23,14 +25,22 @@ export default function Footer_five_info() {
         <Col lg="8" >
             <Row>
                 <Col lg="3" md="3" xs="6" className={classes.five}>
-                    <img src={logo} alt="" />
+                    <img src={authorize} alt="" />
                     <p>Accept Credit Cards</p>
                 </Col>
                 <Col lg="3" md="3" xs="6" className={classes.five}>
-                    <img src={logo} alt="" />
+                    <div className='table'>
+                        <div className='table-inner'>
+                            <img src={upcity} alt="" />
+                        </div>
+                    </div>
                 </Col>
                 <Col lg="3" md="3" xs="6" className={classes.five}>
-                    <img src={logo} alt="" />
+                <div className='table'>
+                        <div className='table-inner'>
+                            <img src={madison} alt="" />
+                        </div>
+                    </div>
                 </Col>
                 <Col lg="3" md="3" xs="6" className={classes.five}>
                     <h5>Follow Us on</h5>

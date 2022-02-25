@@ -145,7 +145,7 @@ br{
   top: unset;
   left: 0;
   margin-bottom: 0!important;
-  bottom: -50px;
+  bottom: -60px;
 }
 }
 
@@ -185,7 +185,7 @@ br{
     top: unset;
     left: 0;
     margin-bottom: 0!important;
-    bottom: -50px;
+    bottom: -60px;
   }
   .navbar a.nav-link{
     padding: 0 10px!important;
