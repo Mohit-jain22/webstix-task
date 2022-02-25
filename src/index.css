@@ -118,6 +118,10 @@ form input:focus, form textarea:focus{
   height: 10px;
   border-radius: 100%;
 }
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
 @media(max-width: 767px) {
   .navbar-brand{
     display: block;

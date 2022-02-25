@@ -6,6 +6,7 @@ import { library } from "@fortawesome/fontawesome-svg-core";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 library.add(faMagnifyingGlass);
+
 function Header() {
   return (
   <>
@@ -40,31 +41,31 @@ function Header() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mx-auto">
-            <NavDropdown title="Web Design" id="collasible-nav-dropdown">
+            <NavDropdown title="Web Design" id="collasible-nav-dropdown" renderMenuOnMount={true}>
               <NavDropdown.Item href="#">Link 1</NavDropdown.Item>
               <NavDropdown.Item href="#">Link 2</NavDropdown.Item>
               <NavDropdown.Item href="#">Link 3</NavDropdown.Item>
               <NavDropdown.Item href="#">Link 4</NavDropdown.Item>
             </NavDropdown>
-            <NavDropdown title="Marketing / SEO" id="collasible-nav-dropdown">
+            <NavDropdown title="Marketing / SEO" id="collasible-nav-dropdown" renderMenuOnMount={true}>
               <NavDropdown.Item href="#">Link 1</NavDropdown.Item>
               <NavDropdown.Item href="#">Link 2</NavDropdown.Item>
               <NavDropdown.Item href="#">Link 3</NavDropdown.Item>
               <NavDropdown.Item href="#">Link 4</NavDropdown.Item>
             </NavDropdown>
-            <NavDropdown title="Services" id="collasible-nav-dropdown">
+            <NavDropdown title="Services" id="collasible-nav-dropdown" renderMenuOnMount={true}>
               <NavDropdown.Item href="#">Link 1</NavDropdown.Item>
               <NavDropdown.Item href="#">Link 2</NavDropdown.Item>
               <NavDropdown.Item href="#">Link 3</NavDropdown.Item>
               <NavDropdown.Item href="#">Link 4</NavDropdown.Item>
             </NavDropdown>
-            <NavDropdown title="Portfolio" id="collasible-nav-dropdown">
+            <NavDropdown title="Portfolio" id="collasible-nav-dropdown" renderMenuOnMount={true}>
               <NavDropdown.Item href="#">Link 1</NavDropdown.Item>
               <NavDropdown.Item href="#">Link 2</NavDropdown.Item>
               <NavDropdown.Item href="#">Link 3</NavDropdown.Item>
               <NavDropdown.Item href="#">Link 4</NavDropdown.Item>
             </NavDropdown>
-            <NavDropdown title="Support" id="collasible-nav-dropdown">
+            <NavDropdown title="Support" id="collasible-nav-dropdown" renderMenuOnMount={true}>
               <NavDropdown.Item href="#">Link 1</NavDropdown.Item>
               <NavDropdown.Item href="#">Link 2</NavDropdown.Item>
               <NavDropdown.Item href="#">Link 3</NavDropdown.Item>

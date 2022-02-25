@@ -53,13 +53,18 @@ ul.social li{
 
 }
 ul.social li a{
-    background-color: #333;
+    background-color: #a51e22;
     margin-right: 5px;
     width: 30px;
     height: 30px;
     padding: 4px 6px;
     text-align: center;
     color: #fff;
+    transition: all 0.5s;
+}
+ul.social li a:hover{
+    background-color: #000;
+    transition: all 0.5s;
 }
 .add svg{
     vertical-align: top!important;

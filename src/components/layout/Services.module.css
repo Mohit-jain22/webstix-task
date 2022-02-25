@@ -5,6 +5,12 @@
     padding: 40px;
     box-shadow: 0px 0px 10px #ccc;
     border-radius: 5px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.service_inner:hover{
+    box-shadow: 0px 0px 15px rgb(83, 80, 80);
+    transition: all 0.5s;
 }
 .service_inner h4{
     font-size: 24px;
